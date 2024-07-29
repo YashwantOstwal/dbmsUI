@@ -73,7 +73,7 @@ function App() {
               }
             </div>
           </div>
-          <div className = 'vishwa'>
+          <div className = 'selectedChips'>
             {selectedQueries.map((selectedQuery)=>
               <span key = {selectedQuery} className = 'chips'>
                 {selectedQuery} 
