@@ -3,17 +3,14 @@ body {
   font-family:'Poppins','sans-serif';
   font-style:normal;
   font-weight:500;
-  background-image:url('./assets/grass.png');
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .card {
-  width:90vw;
-  height:90vh;
+  width:99vw;
+  height:98vh;
   background-color: black;
   border-radius:16px;
-  margin:5vh auto;
   display:flex;
+  margin:1vh auto;
 }
 .item-1 {
   flex:1;
