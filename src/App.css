@@ -89,14 +89,25 @@ body {
   border:1px solid rgba(255,255,255,0.5);
   overflow-y:scroll;
   overflow-x:hidden;
+  background-color: black;
 }
 .options::-webkit-scrollbar{
   display:none;
 }
 .vishwa {
+  overflow-y:scroll;
+  overflow-x:hidden;
   height:200px;
   width:80%;
-  border:2px white solid
+  border:1px solid rgba(255,255,255,0.5);
+  display:flex;
+  gap:7px;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding:7px;
+}
+.vishwa::-webkit-scrollbar{
+  display:none;
 }
 .query {
   font-family:'Poppins','sans-serif';
@@ -117,6 +128,22 @@ body {
 }
 .item-2 {
   flex:1;
+}
+.chips{
+  background-color:#1D1526;
+  padding:3px;
+  height: min-content;
+  color:#c58FFF;
+  text-transform:capitalize;
+  border:1px dashed #C58FFF;
+  display:flex;
+  gap:4px;
+  align-items:center;
+}
+.crossButton {
+  background-color:inherit;
+  border:none;
+  outline:none;
 }
 .poppins-thin {
   font-family: "Poppins", sans-serif;
